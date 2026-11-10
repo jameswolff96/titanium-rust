@@ -4,7 +4,13 @@ Titanium is a hobby programming language, it's like rust, but worse. Inspired by
 The compiler is written in Rust with the end goal of eventually rewriting it in Titanium (possibly being interoperable with rust crates)
 
 ## Building
-TODO
+Requires `cargo` on a Linux operating system.
+
+```sh
+$ git clone https://gitub.com/jameswolff96/titanium-rust
+$ cd titanium-rust
+$ cargo run -- path/to/input.ti [output]
+```
 
 ## Contributing
-I am not currently accepting contributions as this is a learning exerience for me, this language is not meant to be used seriously.
+I am not currently accepting contributions as this is a learning experience for me, this language is not meant to be used seriously.
